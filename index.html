@@ -101,44 +101,43 @@
 
 				<p>______________________________________________________________________</p>
 
-				<h3 style="text-transform: none;"><a href="#pump">ARTIFICIAL ARTERIAL PUMP</a> | <span class="smaller">Arduino</span></h3>
-				<span class="image main"><a href="#pump"><img src="images/Pumppic.jpeg" alt="" /></a></span>
+				<h3 style="text-transform: none;"><a href="#sk8board">ELECTRIC SKATEBOARD</a> | <span class="smaller">Micro controllers</span></h3>
+				<span class="image main"><a href="#sk8board"><img src="images/Pumppic.jpeg" alt="" /></a></span>
 
 				<ul class="actions">
-					<li><a href="#pump" class="button primary">Details</a></li>
+					<li><a href="#sk8board" class="button primary">Details</a></li>
 					<li><a target="_blank" rel="noopener noreferrer" href="pdf/Pompe Artérielle.pdf"
 							class="button icon solid fa-download">Report (French)</a></li>
 				</ul>
 
 				<p>______________________________________________________________________</p>
-				<h3 style="text-transform: none;"><a href="#javaDataBase">OFFLINE DATABASE</a> | <span class="smaller">Java</span></h3>
-				<span class="image main"><a href="#javaDataBase"><img src="images/thumbvideodatabase.png" alt="" /></a></span>
+				<h3 style="text-transform: none;"><a href="#rocketSim">ROCKET SIMULATIONS</a> | <span class="smaller">Python</span></h3>
+				<span class="image main"><a href="#rocketSim"><img src="images/thumbvideodatabase.png" alt="" /></a></span>
 
 				<ul class="actions">
-					<li><a href="#javaDataBase" class="button primary">Details</a></li>
+					<li><a href="#rocketSim" class="button primary">Details</a></li>
 					<li><a target="_blank" rel="noopener noreferrer"
-						href="https://github.com/jadhaddad01/offlineJavaDataBase"
 						class="button icon brands fa-github">Code</a></li>
 				</ul>
 
 				<p>______________________________________________________________________</p>
 
 
-				<h3 style="text-transform: none;"><a href="#work2">COMING SOON</a></h3>
-				<span class="image main"><a href="#work2"><img src="images/soon.png" alt="" /></a></span>
+				<h3 style="text-transform: none;"><a href="#CMSim">CONDENSED MATTER SIMULATIONS</a></h3>
+				<span class="image main"><a href="#CMSim"><img src="images/soon.png" alt="" /></a></span>
 
 				<p>______________________________________________________________________</p>
 
 				<ul class="icons">
-					<li><a target="_blank" rel="noopener noreferrer" href="https://github.com/jadhaddad01"
+					<li><a target="_blank" rel="noopener noreferrer" href="https://github.com/EduardoMuntaner"
 							class="icon brands fa-github"><span class="label">Github</span></a></li>
-					<li><a href="mailto:jadmail01@gmail.com" class="fas fa-envelope"><span class="label"></span></a>
+					<li><a href="mailto:eduardomuntaner@gmail.com" class="fas fa-envelope"><span class="label"></span></a>
 					</li>
 					<li><a href="private.html" class="fa fa-key"><span class="label"></span></a></li>
 				</ul>
 			</article>
 
-			<article id="pump">
+			<article id="sk8board">
 				<!--
 				<ul class="back">
 					<li><a href="#projects" class="fa fa-angle-left" ><span class="label"></span></a></li>
@@ -147,7 +146,7 @@
 
 				<h3><span class="smaller">January 2019 - April 2019</span></h3>
 
-				<h3 style="text-transform: none;">ARTIFICIAL ARTERIAL PUMP | <a target="_blank"
+				<h3 style="text-transform: none;">ELECTRIC SKATEBOARD | <a target="_blank"
 						rel="noopener noreferrer" href="https://makerepo.com/jhadd078/pompe-arterielle-fc5"><span
 							class="smaller">Project Website</span></a></h3>
 
@@ -160,27 +159,21 @@
 
 				<h3>Summary</h3>
 
-				<p>My team was approached by the Ottawa Police, specifically the Forensic Department through Sergeant
-					Ugo Garneau, to create a device for reproducing patterns of propelled blood from severed arteries.
-					Furthermore, the customer was very specific about what he was looking for in a prototype that
-					occupies such a role in his daily tasks.</p>
+				<p>I used a longboard along with a micro-controller (MSP430 from Texas instruments) to program a force-
+                    activaded electric skateboard. The board consisted of two force sensors on top of the board, a motor
+                    attached to the back wheels with lasercut parts, and a battery pack to power the electronics. As
+                    the back force sensor was pressed harder than the front, the difference in force would be picked up
+                    by the micro-controller, thus sending a signal that would ramp the thrust to the back wheels.</p>
 
-				<p>In particular, one can consider the adaptation of many different diameters of tubes as well as
-					multiple cuts, control of rhythm and multiple blood pressures to reproduce crime scenes and retrace
-					the steps of the individuals involved. In such situations one resorts to often considered aberrant
-					values ​​of blood pressure and rhythm due to a series of events that would have shocked the human
-					body. However, the device will replace the old police technique with a tube and a sigh that will
-					improve the accuracy and efficiency of blood patterns reproduced.</p>
-
-				<p>When our team presented this project in front of students and judges at the Design Day 2019 in the
-					University of Ottawa, we were very proud and honored to have won the award for the best project in
-					the same category.</p>
-
+				<p>The difference in force was then analyzed by the microcontroller, which would control the thrust
+                    optimally to ensure the best experience possible, using feedback from the sensors. The signal was then
+                    passed as an AC voltage to a single brushless motor applying torque to a single wheel, but the project
+                    was easily adaptable to a second motor with a bit more time.</p>
 
 				<h3>Materials</h3>
 
-				<p>Arduino C, 2 potentiometers, LCD screen, On/Off switch, 250ml bottle, 12V 2200mAh battery, Diaphragm
-					pump, electrical wire and different diameter flexible tubes with different size cuts.</p>
+				<p>Texas Instruments MSP430, Force Sensors, AC Brushless Motor, Lasercut Parts, Battery Pack, Electrical
+                Wire.</p>
 
 				<h3>Worked With</h3>
 
